@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+#publicaciones {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+h4 {
+    font-size: 1.4rem;
+    color: rgb(151, 77, 120);
+    font-weight: 1000;
+    padding-top: .4rem;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: .95rem;
+    color: rgb(156, 154, 163);
+    padding: .4rem;
+    box-sizing: border-box;
+
+}
+
+.post {
+
+    width: 340px;
+    margin: .9rem;
+    padding: .9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(68, 84, 100);
+    background-color: #fcf5f8;
+    border-radius: 25px;
+    box-shadow: 22px 20px 42px -10px rgba(67, 67, 68, 0.315);
+}
+
+img {
+    max-width: 60%;
+    border-radius: 50%;
+}
